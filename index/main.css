@@ -1,0 +1,527 @@
+a{
+    color:inherit;
+    text-decoration:none;
+    cursor: url('https://eugeneviktorov.github.io/index/Cursor.cur'), auto}
+
+body {
+    cursor: url('https://eugeneviktorov.github.io/index/Cursor.cur'), auto}
+
+html {scroll-behavior: smooth;}
+
+br{
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */}
+
+.Blackout_update{
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color:rgb(0, 0, 0);
+    z-index:99;
+    -webkit-animation:2s animation-fade forwards;
+    animation:1s animation-fade forwards;
+    pointer-events:none}
+
+@keyframes animation-fade{
+    0%{opacity:1}
+    to{opacity:0}}
+
+.Links{
+    position: relative;
+    text-align: center;
+    margin-top: 20%;
+    top: 40%;}
+
+    @media (min-width:150px){
+        .Links{
+            top: 0%;
+            margin-bottom: 150px;}}
+
+    @media (min-width:320px){
+        .Links{
+            top: 0%;}}
+
+    @media (min-width:420px){
+        .Links{
+            top: 15%;}}
+
+    @media (min-width:620px){
+        .Links{
+            top: 25%;}}
+
+    @media (min-width:1035px){
+        .Links{
+            top: 30%;}}
+
+    @media (min-width:1240px){
+        .Links{
+            position: relative;
+            text-align: center;
+            margin-top: 20%;
+            top: 40%;}}
+
+.Link_Word1{
+    text-align: right;
+    margin-top: 30%;}
+
+.Link_Word2{
+    text-align: right;
+    margin-top: 1%;}
+    
+.Link_Word3{
+    text-align: right;
+    margin-bottom: 20px;
+    margin-top: 1%;}
+
+.Links_Home{
+    margin-right: 5%;
+    color: #50CCAE;
+    font-size: 30px;
+    transition: 0.3s all;}
+
+    @media (min-width:280px){
+        .Links_Home{
+            font-size: 20px;}}
+
+    @media (min-width:320px){
+        .Links_Home{
+            font-size: 22px;}}
+
+    @media (min-width:480px){
+        .Links_Home{
+            font-size: 24px;}}
+
+    @media (min-width:720px){
+        .Links_Home{
+            font-size: 30px;}}
+
+    @media (min-width:1500px){
+        .Links_Home{
+            margin-right: 5%;
+            color: #50CCAE;
+            font-size: 30px;}}
+
+.Links_Home:hover{
+    transition: 0.3s;
+    color: rgb(216, 216, 216);}
+
+.menu{
+    right: 2%;
+    top: 77%;
+    position: fixed;}
+
+    @media (min-width:280px){
+        .menu{
+            margin-top: 100%;  }}
+
+    @media (min-width:1700px){
+        .menu{
+            margin-top: -100px;}}
+
+.scale{
+    transition: 0.5s;}
+
+.scale:hover{
+    transform: scale(1.5);}
+
+h1{
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+    margin-bottom: 7%;}
+
+.Сircle_photo{
+    margin: auto;
+    margin-top: 500px;
+    margin-left: 10%;}
+
+    @media (min-width:280px){
+        .Сircle_photo{
+            text-align: center;
+            margin-left: 0%;
+            margin: auto;}}
+
+    @media (min-width:720px){
+        .Сircle_photo{
+            text-align: center;
+            margin: auto;
+            margin-top: 200px;
+            margin-left: 0%;}}
+
+    @media (min-width:1500px){
+        .Сircle_photo{
+            margin: auto;
+            text-align: left;
+            margin-top: 300px;
+            margin-left: 7%}}
+
+.Txt_about{
+    margin-left: 80px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 80%;
+    line-height: 2.5;
+    margin-bottom: 500px;
+    margin-top: 200px;
+    font-size: 22px;}
+
+    @media (min-width:280px){
+        .Txt_about{
+            width: 98%;
+            margin-left: 8px;
+            margin-top: 70px;
+            margin-bottom: 150px;
+            line-height: 1.8;
+            text-align: left;
+            font-size: 18px;}}
+
+    @media (min-width:480px){
+        .Txt_about{
+            width: 90%;
+            margin-left: 8px;
+            margin-top: 70px;
+            margin-bottom: 150px;
+            line-height: 2.0;
+            text-align: left;
+            font-size: 20px;}}
+
+    @media (min-width:720px){
+        .Txt_about{
+            width: 90%;
+            margin-left: 8px;
+            margin-top: 50px;
+            margin-bottom: 150px;
+            line-height: 2.0;
+            text-align: left;
+            font-size: 20px;}}
+
+    @media (min-width:1500px){
+        .Txt_about{
+            margin-left: 80px;
+            color: #ffffff;
+            display: inline-block;
+            width: 65%;
+            line-height: 2.5;
+            margin-bottom: 500px;
+            margin-top: 200px;
+            font-size: 22px;}}
+
+.rectangle {
+    margin-top: 100px;
+    width: 440px;
+    height: 240px;
+    background: #001433;
+    border-radius: 10px;
+    margin-left: 100px;
+    transition: 0.5s all;}
+
+    @media (min-width:280px){
+        .rectangle{
+            margin-top: 50px;
+            margin-left: 0;
+            width: 100%;
+            height: 240px;}}
+
+    @media (min-width:630px){
+        .rectangle{
+            margin-top: 50px;
+            margin-left: 0;
+            width: 49%;
+            height: 240px;}}
+
+    @media (min-width:1700px){
+        .rectangle{
+            margin-top: 100px;
+            width: 440px;
+            height: 240px;
+            background: #001433;
+            border-radius: 10px;
+            margin-left: 100px;}}
+
+.rectangle:hover{
+    transition: 0.5s;
+    background: #002255;}
+
+.rectangle2 {
+    margin-top: 20px;
+    width: 440px;
+    height: 240px;
+    background: #001433;
+    border-radius: 10px;
+    margin-left: 100px;
+    transition: 0.5s all;}
+
+    @media (min-width:280px){
+        .rectangle2{
+            margin-top: 15px;
+            margin-left: 0;
+            width: 100%;
+            height: 240px;}}
+
+    @media (min-width:630px){
+        .rectangle2{
+            margin-top: -240px;
+            margin-left: auto;
+            width: 49%;
+            height: 240px;}}
+
+    @media (min-width:1700px){
+        .rectangle2{
+            margin-top: 20px;
+            width: 440px;
+            height: 240px;
+            background: #001433;
+            border-radius: 10px;
+            margin-left: 100px;}}
+
+.rectangle2:hover{
+    transition: 0.5s;
+    background: #002255;}
+
+.rectangle3 {
+    margin-top: -500px;
+    width: 440px;
+    height: 240px;
+    background: #001433;
+    border-radius: 10px;
+    margin-left: 610px;
+    transition: 0.5s all;}
+
+    @media (min-width:280px){
+        .rectangle3{
+            margin-top: 15px;
+            margin-left: 0;
+            width: 100%;
+            height: 240px;}}
+
+    @media (min-width:630px){
+        .rectangle3{
+            margin-top: 14px;
+            margin-left: 0;
+            width: 49%;
+            height: 240px;}}
+
+    @media (min-width:1700px){
+        .rectangle3{
+            margin-top: -500px;
+            width: 440px;
+            height: 240px;
+            background: #001433;
+            border-radius: 10px;
+            margin-left: 560px;}}
+
+.rectangle3:hover{
+    transition: 0.5s;
+    background: #002255;}
+
+.rectangle4 {
+    margin-top: 20px;
+    width: 440px;
+    height: 240px;
+    background: #001433;
+    border-radius: 10px;
+    margin-left: 610px;
+    transition: 0.5s all;}
+
+    @media (min-width:280px){
+        .rectangle4{
+            margin-top: 15px;
+            margin-left: 0;
+            width: 100%;
+            height: 240px;}}
+
+    @media (min-width:630px){
+        .rectangle4{
+            margin-top: -240px;
+            margin-left: auto;
+            width: 49%;
+            height: 240px;}}
+
+    @media (min-width:1700px){
+        .rectangle4{
+            margin-top: 20px;
+            width: 440px;
+            height: 240px;
+            background: #001433;
+            border-radius: 10px;
+            margin-left: 560px;}}
+
+.rectangle4:hover{
+    transition: 0.5s;
+    background: #002255;}
+
+.rectangle5 {
+    margin-top: -500px;
+    width: 440px;
+    height: 240px;
+    background: #001433;
+    border-radius: 10px;
+    margin-left: 1070px;
+    transition: 0.5s all;}
+
+    @media (min-width:280px){
+        .rectangle5{
+            margin-top: 15px;
+            margin-left: 0;
+            width: 100%;
+            height: 240px;}}
+
+    @media (min-width:630px){
+        .rectangle5{
+            margin-top: 10px;
+            margin-left: 0;
+            width: 49%;
+            height: 240px;}}
+
+    @media (min-width:630px){
+        .rectangle5{
+            margin-top: 10px;
+            margin-left: 0;
+            width: 49%;
+            height: 240px;}}
+
+    @media (min-width:1700px){
+        .rectangle5{
+            margin-top: -500px;
+            width: 440px;
+            height: 240px;
+            background: #001433;
+            border-radius: 10px;
+            margin-left: 1020px;}}
+
+.rectangle5:hover{
+    transition: 0.5s;
+    background: #002255;}
+
+.rectangle6 {
+    margin-top: 20px;
+    margin-bottom: 200px;
+    width: 440px;
+    height: 240px;
+    background: #001433;
+    border-radius: 10px;
+    margin-left: 1070px;
+    transition: 0.5s all;}
+
+    @media (min-width:280px){
+        .rectangle6{
+            margin-top: 15px;
+            margin-left: 0;
+            margin-bottom: 15px;
+            width: 100%;
+            height: 240px;}}
+
+    @media (min-width:630px){
+        .rectangle6{
+            margin-top: -240px;
+            margin-left: auto;
+            width: 49%;
+            height: 240px;}}
+
+    @media (min-width:1700px){
+        .rectangle6{
+            margin-top: 20px;
+            margin-bottom: 200px;
+            width: 440px;
+            height: 240px;
+            background: #001433;
+            border-radius: 10px;
+            margin-left: 1020px;}}
+
+.rectangle6:hover{
+    transition: 0.5s;
+    background: #002255;}
+
+.Txt_capital{
+    font-size: 23px;
+    margin-left: 5%;
+    color: rgb(216, 216, 216);}
+
+    @media (min-width:280px){
+        .Txt_capital{
+            font-size: 18px;
+            width: 90%;}}
+
+    @media (min-width:320px){
+        .Txt_capital{
+            font-size: 20px;
+            width: 90%;}}
+
+    @media (min-width:480px){
+        .Txt_capital{
+            font-size: 23px;
+            width: 90%;}}
+
+    @media (min-width:630px){
+        .Txt_capital{
+            font-size: 20px;
+            width: 90%;}}
+
+    @media (min-width:1200px){
+        .Txt_capital{
+        font-size: 23px;}}
+
+.Txt_essence{
+    font-size: 18px;
+    margin-left: 5%;
+    width: 70%;
+    color: rgb(172, 172, 172);}
+
+    @media (min-width:280px){
+        .Txt_essence{
+            font-size: 14px;
+            width: 90%;}}
+
+    @media (min-width:320px){
+        .Txt_essence{
+            font-size: 16px;
+            width: 90%;}}
+
+    @media (min-width:480px){
+        .Txt_essence{
+            font-size: 18px;
+            width: 80%;}}
+
+    @media (min-width:630px){
+        .Txt_essence{
+            font-size: 16px;
+            width: 80%;}}
+
+    @media (min-width:1200px){
+        .Txt_essence{
+            font-size: 18px;
+            width: 70%;}}
+
+.Txt_ultimate{
+    font-size: 14px;
+    margin-left: 5%;
+    color: rgb(172, 172, 172);}
+
+    @media (min-width:280px){
+        .Txt_ultimate{
+            font-size: 10px;
+            width: 90%;}}
+
+    @media (min-width:320px){
+        .Txt_ultimate{
+            font-size: 12px;
+            width: 90%;}}
+
+    @media (min-width:480px){
+        .Txt_ultimate{
+            font-size: 14px;
+            width: 90%;}}
+
+    @media (min-width:1200px){
+        .Txt_ultimate{
+            font-size: 14px;}}
+
+::-webkit-scrollbar {
+    width: 12px;}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: #50CCAE;}
